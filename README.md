@@ -93,3 +93,21 @@ docker build . -t spring-example && docker run -p 8003:8080 spring-example
 ```
 docker build . -t example-frontend && docker run -p 5000:5000 example-frontend
 ```
+
+### Exercise 1.13
+
+[Dockerfile](part1/1.13/Dockerfile)
+
+```
+docker build . -t example-backend && docker run -p 8080:8080 example-backend
+```
+
+### Exercise 1.14
+
+Backend [Dockerfile](part1/1.14/backend/Dockerfile)
+Frontend [Dockerfile](part1/1.14/frontend/Dockerfile)
+
+```
+docker build . -t example-frontend && docker run -d -p 5000:5000 example-frontend
+docker build . -t example-backend && docker run -d -p 8080:8080 example-backend
+```
