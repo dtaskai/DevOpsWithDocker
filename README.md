@@ -72,21 +72,24 @@ docker run --rm -d -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/sim
 
 ### Exercise 1.10
 
-```
 [Dockerfile](part1/1.7/Dockerfile)
+
+```
 docker run --rm -p 8002:8080 -d web-service
 ```
 
 ### Exercise 1.11
 
-```
 [Dockerfile](part1/1.11/Dockerfile)
+
+```
 docker build . -t spring-example && docker run -p 8003:8080 spring-example
 ```
 
 ### Exercise 1.12
 
-```
 [Dockerfile](part1/1.12/Dockerfile)
-docker build . -t example-frontend && docker run -p 5000:5000 example-frontend
+
+```
+docker build . -t example-frontend && docker run -p 5000:5000 
 ```
