@@ -91,5 +91,5 @@ docker build . -t spring-example && docker run -p 8003:8080 spring-example
 [Dockerfile](part1/1.12/Dockerfile)
 
 ```
-docker build . -t example-frontend && docker run -p 5000:5000 
+docker build . -t example-frontend && docker run -p 5000:5000 example-frontend
 ```
