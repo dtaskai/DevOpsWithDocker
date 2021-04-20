@@ -51,6 +51,42 @@ Command given to get the answer: basics
 ### Exercise 1.7
 
 [Dockerfile](part1/1.7/Dockerfile)
+
 ```
-Command: docker run --rm -it web-server 
+docker run --rm -it web-server
+```
+
+### Exercise 1.8
+
+[Dockerfile](part1/1.8/Dockerfile)
+
+```
+docker run --rm -it curler
+```
+
+### Exercise 1.9
+
+```
+docker run --rm -d -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+```
+
+### Exercise 1.10
+
+```
+[Dockerfile](part1/1.7/Dockerfile)
+docker run --rm -p 8002:8080 -d web-service
+```
+
+### Exercise 1.11
+
+```
+[Dockerfile](part1/1.11/Dockerfile)
+docker build . -t spring-example && docker run -p 8003:8080 spring-example
+```
+
+### Exercise 1.12
+
+```
+[Dockerfile](part1/1.12/Dockerfile)
+docker build . -t example-frontend && docker run -p 5000:5000 example-frontend
 ```
