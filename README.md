@@ -38,3 +38,19 @@ REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
 devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   5 weeks ago    83MB
 devopsdockeruh/simple-web-service   alpine    fd312adc88e0   5 weeks ago    15.7MB
 ```
+
+### Exercise 1.6
+
+```
+You found the correct password. Secret message is:
+"This is the secret message"
+
+Command given to get the answer: basics
+```
+
+### Exercise 1.7
+
+[Dockerfile](part1/1.7/Dockerfile)
+```
+Command: docker run --rm -it web-server 
+```
