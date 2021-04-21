@@ -111,3 +111,21 @@ Frontend [Dockerfile](part1/1.14/frontend/Dockerfile)
 docker build . -t example-frontend && docker run -d -p 5000:5000 example-frontend
 docker build . -t example-backend && docker run -d -p 8080:8080 example-backend
 ```
+
+## Part 2
+
+### Exercise 2.1
+
+[docker-compose.yml](part2/2.1/docker-compose.yml)
+
+### Exercise 2.2
+
+[docker-compose.yml](part2/2.2/docker-compose.yml)
+
+### Exercise 2.3
+
+[docker-compose.yml](part2/2.3/docker-compose.yml)
+
+### Exercise 2.4
+
+[docker-compose.yml](part2/2.4/docker-compose.yml)
