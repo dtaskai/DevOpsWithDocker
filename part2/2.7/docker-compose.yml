@@ -1,0 +1,22 @@
+services:
+    ml-frontend:
+        image: ml-frontend:latest
+        ports:
+            - 3000:3000
+    ml-backend:
+        image: ml-backend:latest
+        ports:
+            - 5000:5000
+        volumes:
+            - model:/src/model
+    ml-training:
+        image: ml-training:latest
+        volumes:
+            - imgs:/src/imgs
+            - data:/src/data
+            - model:/src/model
+
+volumes:
+    model:
+    data:
+    imgs:

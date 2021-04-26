@@ -129,3 +129,30 @@ docker build . -t example-backend && docker run -d -p 8080:8080 example-backend
 ### Exercise 2.4
 
 [docker-compose.yml](part2/2.4/docker-compose.yml)
+
+### Exercise 2.5
+
+```
+docker-compose up -d --scale compute=2
+```
+
+### Exercise 2.6
+
+[docker-compose.yml](part2/2.6/docker-compose.yml)
+
+### Exercise 2.7
+
+[docker-compose.yml](part2/2.7/docker-compose.yml)
+
+### Exercise 2.8
+
+[docker-compose.yml](part2/2.8/docker-compose.yml)
+[nginx.conf](part2/2.8/nginx.conf)
+
+### Exercise 2.9
+
+[docker-compose.yml](part2/2.9/docker-compose.yml)
+
+### Exercise 2.10
+
+Everything already works
