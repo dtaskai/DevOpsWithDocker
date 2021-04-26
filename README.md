@@ -112,6 +112,10 @@ docker build . -t example-frontend && docker run -d -p 5000:5000 example-fronten
 docker build . -t example-backend && docker run -d -p 8080:8080 example-backend
 ```
 
+### Exercise 1.15
+
+https://hub.docker.com/repository/docker/dtaskai/study
+
 ## Part 2
 
 ### Exercise 2.1
