@@ -165,3 +165,7 @@ Everything already works
 
 ### Exercise 3.1
 [repository](https://github.com/dtaskai/docker-hy.github.io)
+
+### Exercise 3.3
+[Backend Dockerfile](part3/3.3/backend/Dockerfile)
+[Frontend Dockerfile](part3/3.3/frontend/Dockerfile)
