@@ -160,3 +160,8 @@ docker-compose up -d --scale compute=2
 ### Exercise 2.10
 
 Everything already works
+
+## Part 3
+
+### Exercise 3.1
+[repository](https://github.com/dtaskai/docker-hy.github.io)
