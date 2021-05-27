@@ -104,7 +104,7 @@ docker build . -t example-backend && docker run -p 8080:8080 example-backend
 
 ### Exercise 1.14
 
-Backend [Dockerfile](part1/1.14/backend/Dockerfile)
+Backend [Dockerfile](part1/1.14/backend/Dockerfile)   
 Frontend [Dockerfile](part1/1.14/frontend/Dockerfile)
 
 ```
@@ -150,7 +150,7 @@ docker-compose up -d --scale compute=2
 
 ### Exercise 2.8
 
-[docker-compose.yml](part2/2.8/docker-compose.yml)
+[docker-compose.yml](part2/2.8/docker-compose.yml)   
 [nginx.conf](part2/2.8/nginx.conf)
 
 ### Exercise 2.9
@@ -164,8 +164,15 @@ Everything already works
 ## Part 3
 
 ### Exercise 3.1
+
 [repository](https://github.com/dtaskai/docker-hy.github.io)
 
 ### Exercise 3.3
-[Backend Dockerfile](part3/3.3/backend/Dockerfile)
+
+[Backend Dockerfile](part3/3.3/backend/Dockerfile)   
 [Frontend Dockerfile](part3/3.3/frontend/Dockerfile)
+
+### Exercise 3.4
+
+[Backend Dockerfile](part3/3.3/backend/Dockerfile) size went from 447MB to 320MB using multistage build ([Multistage Dockerfile](part3/3.4/backend/Dockerfile))   
+[Frontend Dockerfile](part3/3.3/frontend/Dockerfile) size went from 343MB to 125MB using multistage build ([Multistage Dockerfile](part3/3.4/frontend/Dockerfile))
