@@ -176,3 +176,12 @@ Everything already works
 
 [Backend Dockerfile](part3/3.3/backend/Dockerfile) size went from 447MB to 320MB using multistage build ([Multistage Dockerfile](part3/3.4/backend/Dockerfile))   
 [Frontend Dockerfile](part3/3.3/frontend/Dockerfile) size went from 343MB to 125MB using multistage build ([Multistage Dockerfile](part3/3.4/frontend/Dockerfile))
+
+### Exercise 3.5
+
+Already completed it in Exercise 3.4
+
+### Exercise 3.6
+
+[Frontend Dockerfile](part3/3.3/frontend/Dockerfile) already optimized in Exercise 3.4
+[Backend Dockerfile](part3/3.6/Dockerfile)
