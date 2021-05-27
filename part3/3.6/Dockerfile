@@ -12,7 +12,7 @@ WORKDIR /src/app
 
 ENV REQUEST_ORIGIN=http://localhost:5000
 
-COPY --from=BUILD_IMAGE /src/app/server /src/app/
+COPY --from=BUILD_IMAGE /src/app/server ./server
 
 EXPOSE 8080
 
