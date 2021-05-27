@@ -8,12 +8,8 @@ EXPOSE 8080
 
 ENV REQUEST_ORIGIN=http://localhost:5000
 
-RUN adduser -D appuser
-
-RUN chmod a+rwx /src/app
+RUN adduser -D appuser && chmod a+rwx /src/app && go build
 
 USER appuser
-
-RUN go build
 
 CMD ["./server"]
